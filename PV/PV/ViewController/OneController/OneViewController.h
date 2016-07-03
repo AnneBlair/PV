@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  PV
 //
 //  Created by Sir-Anne-Blair on 16/7/4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OneViewController : UIViewController
 
 @end
-
