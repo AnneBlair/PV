@@ -11,6 +11,11 @@
 		10022C6E1D297F500026506B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022C6D1D297F500026506B /* AppDelegate.m */; };
 		10022C761D297F500026506B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10022C751D297F500026506B /* Assets.xcassets */; };
 		10022C8C1D2993230026506B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022C8B1D2993230026506B /* OneViewController.m */; };
+		10022C951D2A16B80026506B /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022C941D2A16B80026506B /* ThreeViewController.m */; };
+		10022C981D2A16C70026506B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022C971D2A16C70026506B /* TwoViewController.m */; };
+		10022C9C1D2A19B60026506B /* YYGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022C9B1D2A19B60026506B /* YYGTabBar.m */; };
+		10022CA01D2A1D640026506B /* UIView+YYGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022C9F1D2A1D640026506B /* UIView+YYGView.m */; };
+		10022CA41D2A2E7C0026506B /* YYGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022CA31D2A2E7C0026506B /* YYGTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,17 @@
 		10022C7A1D297F500026506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10022C8A1D2993230026506B /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		10022C8B1D2993230026506B /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		10022C931D2A16B80026506B /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		10022C941D2A16B80026506B /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		10022C961D2A16C70026506B /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		10022C971D2A16C70026506B /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		10022C9A1D2A19B60026506B /* YYGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGTabBar.h; sourceTree = "<group>"; };
+		10022C9B1D2A19B60026506B /* YYGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGTabBar.m; sourceTree = "<group>"; };
+		10022C9E1D2A1D640026506B /* UIView+YYGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYGView.h"; sourceTree = "<group>"; };
+		10022C9F1D2A1D640026506B /* UIView+YYGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYGView.m"; sourceTree = "<group>"; };
+		10022CA21D2A2E7C0026506B /* YYGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGTabBarController.h; sourceTree = "<group>"; };
+		10022CA31D2A2E7C0026506B /* YYGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGTabBarController.m; sourceTree = "<group>"; };
+		10022CA61D2A54C00026506B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 		10022C681D297F500026506B /* PV */ = {
 			isa = PBXGroup;
 			children = (
+				10022C9D1D2A1CDE0026506B /* Category */,
 				10022C801D2986180026506B /* Model */,
 				10022C811D2986180026506B /* View */,
 				10022C821D2986180026506B /* ViewController */,
@@ -71,6 +88,7 @@
 				10022C751D297F500026506B /* Assets.xcassets */,
 				10022C7A1D297F500026506B /* Info.plist */,
 				10022C6A1D297F500026506B /* main.m */,
+				10022CA61D2A54C00026506B /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -85,6 +103,7 @@
 		10022C811D2986180026506B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				10022C991D2A198C0026506B /* TabBar */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,6 +111,7 @@
 		10022C821D2986180026506B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				10022CA11D2A2E460026506B /* Main */,
 				10022C841D2992F20026506B /* OneController */,
 				10022C851D2992F20026506B /* ThreeController */,
 				10022C861D2992F20026506B /* TwoController */,
@@ -118,6 +138,8 @@
 		10022C851D2992F20026506B /* ThreeController */ = {
 			isa = PBXGroup;
 			children = (
+				10022C931D2A16B80026506B /* ThreeViewController.h */,
+				10022C941D2A16B80026506B /* ThreeViewController.m */,
 			);
 			path = ThreeController;
 			sourceTree = "<group>";
@@ -125,8 +147,37 @@
 		10022C861D2992F20026506B /* TwoController */ = {
 			isa = PBXGroup;
 			children = (
+				10022C961D2A16C70026506B /* TwoViewController.h */,
+				10022C971D2A16C70026506B /* TwoViewController.m */,
 			);
 			path = TwoController;
+			sourceTree = "<group>";
+		};
+		10022C991D2A198C0026506B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				10022C9A1D2A19B60026506B /* YYGTabBar.h */,
+				10022C9B1D2A19B60026506B /* YYGTabBar.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		10022C9D1D2A1CDE0026506B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				10022C9E1D2A1D640026506B /* UIView+YYGView.h */,
+				10022C9F1D2A1D640026506B /* UIView+YYGView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		10022CA11D2A2E460026506B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				10022CA21D2A2E7C0026506B /* YYGTabBarController.h */,
+				10022CA31D2A2E7C0026506B /* YYGTabBarController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +212,11 @@
 					10022C651D297F500026506B = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = Z84R6B8JVQ;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -169,7 +225,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 10022C5D1D297F500026506B;
@@ -199,8 +254,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				10022C8C1D2993230026506B /* OneViewController.m in Sources */,
+				10022CA41D2A2E7C0026506B /* YYGTabBarController.m in Sources */,
+				10022CA01D2A1D640026506B /* UIView+YYGView.m in Sources */,
+				10022C9C1D2A19B60026506B /* YYGTabBar.m in Sources */,
 				10022C6E1D297F500026506B /* AppDelegate.m in Sources */,
 				10022C6B1D297F500026506B /* main.m in Sources */,
+				10022C981D2A16C70026506B /* TwoViewController.m in Sources */,
+				10022C951D2A16B80026506B /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +294,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = PV/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -244,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -276,13 +337,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = PV/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

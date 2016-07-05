@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  PV
+//
+//  Created by Sir-Anne-Blair on 16/7/4.
+//  Copyright © 2016年 anne-blair. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define NavColor [UIColor colorWithRed:0.62 green:0.47 blue:0.58 alpha:1];
+#define BackGColor [UIColor colorWithRed:0.25 green:0.19 blue:0.30 alpha:1];
+
+#define WIDE  ([UIScreen mainScreen].bounds.size.width)
+#define HEIGHT  ([UIScreen mainScreen].bounds.size.height)
+#endif /* PrefixHeader_pch */
